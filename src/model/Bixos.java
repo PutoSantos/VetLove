@@ -15,6 +15,17 @@ public class Bixos
 		this.dataNasc = dataNasc;
 		this.ficha = ficha;
 	}
+	
+	public double getGastosVacinas()
+	{
+		double total = 0;
+		
+		for(Vacinacoes v : ficha.getVacina())
+		{
+			total += v.getPreco();
+		}
+		return total;
+	}
 
 	public String getClassificacao() 
 	{

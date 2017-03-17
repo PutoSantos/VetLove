@@ -12,10 +12,10 @@ public class Cliente
 	private ArrayList<Bixos> bixo;
 	
 	
-	public Cliente(int id, String nome, String morada, String email, int telefone) 
+	public Cliente(String nome, String morada, String email, int telefone) 
 	{
 		super();
-		this.idCliente = id;
+		
 		this.nome = nome;
 		this.morada = morada;
 		this.email = email;

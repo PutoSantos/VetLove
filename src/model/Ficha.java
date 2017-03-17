@@ -4,18 +4,7 @@ import java.util.ArrayList;
 
 public class Ficha 
 {
-	public ArrayList<Vacinacoes> getVacina() {
-		return vacina;
-	}
-	public void setVacina(ArrayList<Vacinacoes> vacina) {
-		this.vacina = vacina;
-	}
-	public ArrayList<Consulta> getConsultas() {
-		return consultas;
-	}
-	public void setConsultas(ArrayList<Consulta> consultas) {
-		this.consultas = consultas;
-	}
+	
 	private int id;
 	private String cliente;
 	private String vacinas;
@@ -48,5 +37,17 @@ public class Ficha
 		this.vacinas = vacinas;
 	}
 	
+	public ArrayList<Vacinacoes> getVacina() {
+		return vacina;
+	}
+	public void setVacina(ArrayList<Vacinacoes> vacina) {
+		this.vacina = vacina;
+	}
+	public ArrayList<Consulta> getConsultas() {
+		return consultas;
+	}
+	public void setConsultas(ArrayList<Consulta> consultas) {
+		this.consultas = consultas;
+	}
 	
 }
