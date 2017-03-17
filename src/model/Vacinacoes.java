@@ -4,9 +4,9 @@ public class Vacinacoes
 {
 	private String data;
 	private String nomeVacina;
-	private int preco;
+	private double preco;
 	
-	public Vacinacoes(String data, String nomeVacina, int preco) 
+	public Vacinacoes(String data, String nomeVacina, double preco) 
 	{
 		super();
 		this.data = data;
@@ -34,12 +34,12 @@ public class Vacinacoes
 		this.nomeVacina = nomeVacina;
 	}
 
-	public int getPreco() 
+	public double getPreco() 
 	{
 		return preco;
 	}
 
-	public void setPreco(int preco) 
+	public void setPreco(double preco) 
 	{
 		this.preco = preco;
 	}

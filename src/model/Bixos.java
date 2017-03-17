@@ -5,13 +5,15 @@ public class Bixos
 	private String classificacao;
 	private String raca;
 	private String dataNasc;
+	Ficha ficha;
 	
-	public Bixos(String classificacao, String raca, String dataNasc) 
+	public Bixos(String classificacao, String raca, String dataNasc, Ficha ficha) 
 	{
 		super();
 		this.classificacao = classificacao;
 		this.raca = raca;
 		this.dataNasc = dataNasc;
+		this.ficha = ficha;
 	}
 
 	public String getClassificacao() 
@@ -44,5 +46,14 @@ public class Bixos
 		this.dataNasc = dataNasc;
 	}
 	
+	public Ficha getFicha()
+	{
+		return ficha;
+	}
+	
+	public void setFicha(Ficha ficha)
+	{
+		this.ficha = ficha;
+	}
 	
 }
