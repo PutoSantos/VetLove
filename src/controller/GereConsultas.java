@@ -20,7 +20,7 @@ public class GereConsultas
 		
 		System.out.println("Introduza a descricao: ");
 			String cliente = (new Scanner(System.in).nextLine());
-		System.out.println("Introduza a data: ");
+		System.out.println("Introduza a data da consulta: ");
 			String data = (new Scanner(System.in).nextLine());
 	}
 }

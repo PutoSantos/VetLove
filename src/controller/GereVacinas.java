@@ -22,6 +22,6 @@ public class GereVacinas
 		System.out.println("Introduza o nome da vacina: ");
 			String nomeVacina = (new Scanner(System.in).nextLine());
 		System.out.println("Introduza o preco da vacina: ");
-			int preco = (new Scanner(System.in).nextInt());
+			double preco = (new Scanner(System.in).nextDouble());
 	}
 }
